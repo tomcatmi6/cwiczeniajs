@@ -1,8 +1,11 @@
-var userName = prompt("Jak masz na imię?");
-var userSurname = prompt("Jak masz na nazwisko?");
-var userGender = prompt("Jesteś mężczyzną czy kobietą?");
+// var userName = prompt("Jak masz na imię?");
+// var userSurname = prompt("Jak masz na nazwisko?");
+// var userGender = prompt("Jesteś mężczyzną czy kobietą?");
+userName="oko";
+userSurname="oookko";
+userGender="pp";
 var userHeight = prompt("Ile masz wzrostu?");
 var userWeight = prompt("Ile ważysz?");
 alert("Witaj "+ userName +" "+ userSurname);
-alert("Jesteś " + userGender + " więc Twoje BMI wynosi: " + userWeight/Math.pow((userHeight/100), 2));
+alert("Jesteś " + userGender + " więc Twoje BMI wynosi: " + (userWeight/Math.pow((userHeight/100), 2)).toFixed(2));
 alert("Sprawdź koniecznie czy nie masz otyłości!"); 
