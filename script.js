@@ -1,9 +1,7 @@
-// var userName = prompt("Jak masz na imię?");
-// var userSurname = prompt("Jak masz na nazwisko?");
-// var userGender = prompt("Jesteś mężczyzną czy kobietą?");
-userName="oko";
-userSurname="oookko";
-userGender="pp";
+var userName = prompt("Jak masz na imię?");
+var userSurname = prompt("Jak masz na nazwisko?");
+var userGender = prompt("Jesteś mężczyzną czy kobietą?");
+
 var userHeight = prompt("Ile masz wzrostu?");
 var userWeight = prompt("Ile ważysz?");
 alert("Witaj "+ userName +" "+ userSurname);
