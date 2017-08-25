@@ -1,6 +1,6 @@
 // wszystkie liczby miedzy -10 do 19
 
-for (var num = -19; num <= 19; num++) {
+for (var num = -10; num <= 19; num++) {
     console.log(num);
     
 } 
